@@ -13,22 +13,16 @@ class RideTheBus:
 
     def play(self):
         self.rtb_round1()
-        if self.win_state == True:
+        if self.win_state:
             self.rtb_round2()
-        else:
-            pass
 
-        if self.win_state == True:
+        if self.win_state:
             self.rtb_round3()
-        else:
-            pass
 
-        if self.win_state == True:
+        if self.win_state:
             self.rtb_round4()
-        else:
-            pass
 
-        if self.win_state == True:
+        if self.win_state:
             print("Congratulations! You won!")
 
     def rtb_round1(self):
